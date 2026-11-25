@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 900" width="800" height="900">
+  <defs>
+    <linearGradient id="bg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e8eddf"/>
+      <stop offset="55%" stop-color="#f5ebe0"/>
+      <stop offset="100%" stop-color="#edede9"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="900" fill="url(#bg3)"/>
+  <circle cx="400" cy="430" r="210" fill="#d5bdaf" opacity="0.25"/>
+  <ellipse cx="400" cy="545" rx="145" ry="28" fill="#d6ccc2"/>
+  <path d="M300 390 L500 390 L475 535 Q400 560 325 535 Z" fill="#fffaf7" stroke="#b08968" stroke-width="5"/>
+  <path d="M495 415 C545 415 545 495 485 495" fill="none" stroke="#b08968" stroke-width="10" stroke-linecap="round"/>
+  <ellipse cx="400" cy="390" rx="100" ry="22" fill="#ddb892" stroke="#b08968" stroke-width="4"/>
+  <path d="M400 398 C385 382 372 392 385 404 L400 415 L415 404 C428 392 415 382 400 398 Z" fill="#fffaf7"/>
+  <path d="M365 340 Q350 310 370 280" fill="none" stroke="#b08968" stroke-width="5" stroke-linecap="round" opacity="0.5"/>
+  <path d="M430 335 Q445 305 425 275" fill="none" stroke="#b08968" stroke-width="5" stroke-linecap="round" opacity="0.5"/>
+  <text x="400" y="750" text-anchor="middle" font-family="Georgia, serif" font-size="28" fill="#7f5539" opacity="0.9">Replace with Photo 3</text>
+  <text x="400" y="790" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#9c6644">static/images/photo-3.svg</text>
+</svg>

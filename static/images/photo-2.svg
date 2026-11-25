@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 900" width="800" height="900">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a7f3d0"/>
+      <stop offset="50%" stop-color="#67e8f9"/>
+      <stop offset="100%" stop-color="#60a5fa"/>
+    </linearGradient>
+    <linearGradient id="sun2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fef9c3"/>
+      <stop offset="100%" stop-color="#fde68a"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="900" fill="url(#bg2)"/>
+  <circle cx="400" cy="400" r="145" fill="url(#sun2)" opacity="0.9"/>
+  <path d="M0 540 Q210 450 420 535 T800 500 L800 900 L0 900 Z" fill="#0f766e" opacity="0.45"/>
+  <path d="M0 600 Q260 530 500 605 T800 570 L800 900 L0 900 Z" fill="#1e3a8a" opacity="0.42"/>
+  <path d="M230 250 Q245 235 260 250 Q275 235 290 250" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" opacity="0.85"/>
+  <path d="M510 210 Q522 198 534 210 Q546 198 558 210" fill="none" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round" opacity="0.8"/>
+  <text x="400" y="750" text-anchor="middle" font-family="Georgia, serif" font-size="28" fill="#f0fdf4" opacity="0.95">Replace with Photo 2</text>
+  <text x="400" y="790" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#dbeafe">static/images/photo-2.svg</text>
+</svg>
