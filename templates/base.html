@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- [EDIT HERE]: Update the browser tab title and share description -->
+  <title>Happy Birthday, {{ config.RECIPIENT_NAME }} — A Special Surprise</title>
+  <!-- [EDIT HERE]: Optional short description shown when sharing the link -->
+  <meta name="description" content="A birthday countdown, keepsake letter, photo memories, and songs that remind me of you." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
+</head>
+<body>
+  <div class="ambient-bg" aria-hidden="true">
+    <span class="orb orb-1"></span>
+    <span class="orb orb-2"></span>
+    <span class="orb orb-3"></span>
+  </div>
+
+  {% block content %}{% endblock %}
+
+  <script src="{{ url_for('static', filename='js/player.js') }}" defer></script>
+  {% if stage in (1, 2) %}
+    <script src="https://open.spotify.com/embed/iframe-api/v1" async></script>
+  {% endif %}
+</body>
+</html>
